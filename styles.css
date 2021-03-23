@@ -1,0 +1,343 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+.div100vh{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.intro{
+    background-image: url(image/header.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quisuisje{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.titre{
+    font-size: 100px;
+    margin: 10px;
+}
+
+.linkbutton{
+    display:inline;
+}
+
+.moi{
+    font-size: 100px;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #e1e1e1;
+    cursor: pointer;
+}
+
+.moiscolaire{
+    font-size: 100px;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #e1e1e1;
+}
+
+.moicomp{
+    font-size: 100px;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #e1e1e1;
+    /*position: relative;
+    bottom: 150px;*/
+}
+
+.moipass{
+    font-size: 100px;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #e1e1e1;
+    /*position: relative;
+    bottom: 150px;*/
+}
+
+.cache{
+    display: none;
+}
+
+.qui{
+    width: 500px;
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.header>h1{
+    color: black;
+    font-size: 1000px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 20px 0 20px;
+    cursor: pointer;
+  }
+
+.photo{
+    height: 500px;
+    width: 400px;
+    position: relative;
+    right: 500px;
+    top: 500px;
+}
+
+.droite{
+    display: inline-block;
+    border: black solid;
+    text-align: center;
+    height: 100px;
+    width: 500px;
+    background-color: white;
+    font-size: 25px;
+    position: relative;
+    left: 800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gauche{
+    display: inline-block;
+    border: black solid;
+    text-align: center;
+    height: 100px;
+    width: 500px;
+    background-color: white;
+    font-size: 25px;
+    position: relative;
+    left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.parcours{
+    background-image: url(image/parcours.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.comp{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #333;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    bottom: 300px;
+}
+
+.list2{
+    list-style: none;
+    padding: 0;
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.skills{
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+}
+
+.skills li{
+    margin: 20px 0;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 2;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+    width: 500px;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+
+.javascript{
+    width: 40%;
+    animation: javascript 2s;
+}
+
+.css{
+    width: 50%;
+    animation: css 2s;
+}
+
+.html{
+    width: 50%;
+    animation: html 2s;
+}
+
+.php{
+    width: 10%;
+    animation: php 2s;
+}
+
+.sql{
+    width: 10%;
+    animation: sql 2s;
+}
+
+.python{
+    width: 30%;
+    animation: python 2s;
+}
+
+.passion{
+    font-size: 30px;
+    position: relative;
+    bottom: 100px;
+}
+
+.passionimg{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 200px;
+}
+
+.listinline{
+    display: inline;
+}
+
+.tennis .jeu .anime{
+    width: 500px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.passiondiv{
+    position: relative;
+   /* bottom: 300px;*/
+}
+
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+@keyframes php {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 10%;
+    }
+}
+
+@keyframes sql {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 10%;
+    }
+}
+
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}

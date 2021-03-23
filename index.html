@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV intéractif</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="library/animate.css">
+    <link href="library/hover.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="intro">
+        <h1 class="titre" data-anijs="if: scroll, on: window, do: fadeInDownBig animated, before: $scrollReveal">Dany
+            Pereira</h1>
+        <h1 class="titre" data-anijs="if: scroll, on: window, do: fadeInDownBig animated, before: $scrollReveal">CV
+            Numérique</h1>
+    </div>
+    <div class="quisuisje">
+        <h1 class="moi hvr-bubble-float-bottom" data-anijs="if: click, do: $removeClass cache, to: .cache">Qui suis-je ?
+        </h1>
+        <div class="center div100vh">
+            <p class="cache qui" data-anijs="if: click, on: .moi, do: fadeInDownBig animated">Bonjour je m'appelle Dany
+                Pereira et je suis actuellement en DUT Métiers du Multimédia et de l'Internet à Champs-sur-Marne de
+                l'université Gustave Eiffel.</p>
+            <p class="cache qui" data-anijs="if: click, on: .moi, do: fadeInDownBig animated"> J'aime beaucoup le
+                développement front end et la programmation en général et je souhaite m'orienter vers ces domaines. Je
+                suis notamment passioné de jeux vidéos.</p>
+            <p class="cache qui" data-anijs="if: click, on: .moi, do: fadeInDownBig animated">Cela peut aller du jeu en
+                lui même ou bien sur les différentes manières de coder un jeu vidéo ou encore sur les différents
+                conceptes qui tourne autour, comme le game Design ou encore level Designer. Le monde du jeu vidéo est
+                passionant et si possible en faire un jour mon métier.</p>
+            <ul>
+                <li class="cache linkbutton"><a href="CV Dany Pereira.pdf" target="_blank"
+                        class="button hvr-sweep-to-right"
+                        data-anijs="if: scroll, on: window, do: rotateInDownLeft animated, before: scrollReveal">CV</a>
+                </li>
+                <li class="cache linkbutton"><a href="https://www.linkedin.com/in/dany-pereira-85a530194/"
+                        target="_blank" class="button hvr-sweep-to-right"
+                        data-anijs="if: scroll, on: window, do: rotateInDownRight animated, before: scrollReveal">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div class="parcours">
+        <h1 class="moiscolaire">Mon parcours scolaires</h1>
+        <p class="droite"
+            data-anijs="if: scroll, on: window, do: rotateInDownRight animated, before: scrollReveal repeat">
+            2019-2020 : Réorientation DUT Métiers du multimédia et de l’internet à l'université Gustave Eiffel à
+            Champs-sur-Marne
+        </p>
+        <p class="gauche"
+            data-anijs="if: scroll, on: window, do: rotateInDownLeft animated, before: scrollReveal repeat">
+            2018 - 2019 Licence Mathématique - Informatique à l'université Gustave Eiffel à Champs-sur-Marne</p>
+        <p class="droite"
+            data-anijs="if: scroll, on: window, do: rotateInDownRight animated, before: scrollReveal repeat">
+            2018 Baccalauréat Scientifique spécialité sciences de la vie et de la terre au Lycée Marx Dormoy à
+            Champigny-sur-Marne</p>
+    </div>
+
+    <div class="comp">
+        <h1 class="moicomp">Mes compétences</h1>
+        <div class="list">
+            <li>
+                <h3>JavaScript</h3><span class="bar"><span class="javascript"></span></span>
+            </li>
+
+            <li>
+                <h3>HTLM5</h3><span class="bar"><span class="html"></span></span>
+            </li>
+
+            <li>
+                <h3>CSS</h3><span class="bar"><span class="css"></span></span>
+            </li>
+
+            <li>
+                <h3>PHP</h3><span class="bar"><span class="php"></span></span>
+            </li>
+
+            <li>
+                <h3>SQL</h3><span class="bar"><span class="sql"></span></span>
+            </li>
+
+            <li>
+                <h3>Python</h3><span class="bar"><span class="python"></span></span>
+            </li>
+        </div>
+    </div>
+
+    <div class="div100vh passion">
+        <h1 class="moipass">Mes passions</h1>
+        <div class="passiondiv">
+            <ul class="list2">
+                <li>
+                    <div class="tennis">
+                        <img class="passionimg" src="image/tennis.jpg" alt="icone d'une raquette de tennis"
+                            data-anijs="if: scroll, on: window, do: fadeIn animated, before: scrollReveal repeat">
+                        <h3 data-anijs="if: scroll, on: window, do: fadeIn animated, before: scrollReveal repeat">Le
+                            Tennis</h3>
+                        <p data-anijs="if: scroll, on: window, do: fadeIn animated, before: scrollReveal repeat">Le
+                            tennis est de loin le sport que je préfère pratiquer. Depuis mes 10ans je joue régulièrement
+                            au tennis. Il requiert de bonne compétence physique ainsi que mental. Je suis aussi de prêt
+                            les
+                            compétitions de tennis.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="jeu">
+                        <img class="passionimg" src="image/jeu.png" alt="icone d'une manette de jeu"
+                            data-anijs="if: scroll, on: window, do: fadeIn animated, before: scrollReveal repeat">
+                        <h3 data-anijs="if: scroll, on: window, do: fadeIn animated, before: scrollReveal repeat">Les
+                            Jeux Vidéos</h3>
+                        <p data-anijs="if: scroll, on: window, do: fadeIn animated, before: scrollReveal repeat">J'ai
+                            grandi toute ma vie avec les jeux vidéos. J'ai eu une famille qui ma permis de découvrir
+                            l'expérience que peut procurer un jeu vidéo. J'ai joué à de nombreux jeux et j'ai toujours
+                            adorer
+                            l'imersion que cela donne. Plus je grandissais plus ma passion pour les jeux vidéos ont
+                            grandi,
+                            mais pas
+                            uniquement dans l'aspet "jouer au jeu" mais aussi dans la conception d'un jeu vidéo.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="anime">
+                        <img class="passionimg" src="image/anime.png" alt="icone du studio ghibli"
+                            data-anijs="if: scroll, on: window, do: fadeIn animated, before: scrollReveal repeat">
+                        <h3 data-anijs="if: scroll, on: window, do: fadeIn animated, before: scrollReveal repeat">
+                            L'animation Japonaise</h3>
+                        <p data-anijs="if: scroll, on: window, do: fadeIn animated, before: scrollReveal repeat">
+                            L'animation japonaise est pour moi un art incroyable qui peut procurer des sentiments que
+                            l'on ne
+                            retrouve pas dans les séries ou les films. C'est aussi une grande source d'inspiration dans
+                            tous
+                            les
+                            domaines, que ce soit la musique, le dessin, ou l'histoire.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="library/anijs-min.js"></script>
+    <script src="library/anijs-helper-dom-min.js"></script>
+    <script src="library/anijs.js"></script>
+    <script src="library/anijs-helper-scrollreveal.js"></script>
+
+</body>
+
+</html>
